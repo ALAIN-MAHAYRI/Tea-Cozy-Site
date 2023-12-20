@@ -1,0 +1,192 @@
+/*unuversal style*/
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+a {
+    color: inherit;
+}
+
+/*styles*/
+a:hover {
+    color: gray;
+}
+
+
+/*header*/
+
+header {
+    display: flex;
+    height: 69px;
+    width: 100%;
+    padding: 0 10px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    margin: 0 auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    height: 50px;
+    display: block;
+    max-width: 100%;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+nav li:last-child {
+    padding-right: 10;
+}
+
+/*main*/
+.main {
+    position: relative;
+    top: 69px;
+}
+
+/*Banner*/
+.banner {
+    background-image: url('resourses/photos/img-mission-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.mission {
+    text-align: center;
+    background-color: black;
+    flex-basis: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*tea month*/
+.tea-month {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.group-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-photo {
+    margin: 0 15px 30px 15px;
+    opacity: 0.9;
+}
+
+.tea-month img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.tea-month h2 {
+    padding-bottom: 0;
+}
+
+.tea-photo h4 {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+
+/*locations*/
+.locations{
+    background-image: url("resourses/photos/img-locations-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 90px 0;
+    overflow-y: auto;
+}
+
+.locations h2 {
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.addresses-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.address {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 300px;
+    margin: 0px 20px 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+/*footer*/
+footer {
+    margin: 0 auto;
+}
+
+.contact {
+    height: 200px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    margin: 0;
+    padding-top: 10px;
+    height: 90px;
+}
+
+.contact h5 {
+    margin-top: 0;
+    padding: 0;
+}
+
+.copyright {
+    text-align: left;
+    padding: 40px 20px 30px;
+}
+
+.copyright h5 {
+    margin: 0;
+    padding: 0;
+}
